@@ -68,12 +68,13 @@ main {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  color: #0b090c; }
+  color: #0b090c;
+  font-size: 19px; }
   .email a:hover {
     color: #332a38; }
 
 .profileImage {
-  height: 500px;
+  height: 400px;
   overflow: hidden;
   position: relative;
   padding: 10px;

@@ -65,13 +65,14 @@ main {
   justify-content: center;
   align-items: center;
   color: $black;
+  font-size: 19px;
   &:hover {
     color: lighten($black, 15%);
   }
 }
 
 .profileImage {
-  height: 500px;
+  height: 400px;
   overflow: hidden;
   position: relative;
   padding: 10px;
@@ -167,7 +168,7 @@ main {
 
 .skillBar {
   margin: 10px auto;
-  
+
   .circularProgress {
     height: 100px;
     width: 100px;
@@ -191,7 +192,7 @@ main {
       z-index: 1;
       background-color: $black;
     }
-    .icon{
+    .icon {
       height: 80px;
       width: 80px;
       z-index: 2;
@@ -206,9 +207,8 @@ main {
       align-items: center;
       font-size: 40px;
     }
-    
   }
-  .skill{
+  .skill {
     text-align: center;
     margin: 10px auto;
     text-transform: uppercase;
